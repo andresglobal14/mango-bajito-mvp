@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Mango Bajito Brand Color System - Clean Utility / Minimal Theme */
+  --color-mango-primary: #FF8A00;   /* Vibrant Mango Orange */
+  --color-mango-secondary: #FFB800; /* Sunny Golden Yellow */
+  --color-mango-green: #22C55E;     /* Vibrant Crisp Green */
+  --color-mango-fresh: #1E824C;     /* Deep Jungle Green */
+  --color-mango-dark: #1A1A1A;      /* True Flat Charcoal Dark Gray */
+  --color-mango-beige: #F8F9FA;     /* Clean neutral-solid layout color */
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F8F9FA;
+  color: #1A1A1A;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+/* Custom scrollbars for clean navigation */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E5E7EB;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D1D5DB;
+}
+

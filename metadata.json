@@ -1,0 +1,6 @@
+{
+  "name": "Mango Bajito Venezuela",
+  "description": "E-commerce MVP para Mango Bajito Venezuela, con catálogo interactivo, localizador de sucursales por geolocalización y carrito de compras integrado.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
