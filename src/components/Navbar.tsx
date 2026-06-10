@@ -39,9 +39,9 @@ export const Navbar: React.FC = () => {
               <span className="text-2xl font-black tracking-tighter text-mango-primary leading-none">
                 MANGO BAJITO
               </span>
-              <span className="text-[10px] font-bold text-mango-green tracking-widest uppercase mt-0.5">
+              {/* <span className="text-[10px] font-bold text-mango-green tracking-widest uppercase mt-0.5">
                 Venezuela • MVP
-              </span>
+              </span> */}
             </div>
           </Link>
 
