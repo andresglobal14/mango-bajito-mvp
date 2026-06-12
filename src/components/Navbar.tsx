@@ -3,6 +3,7 @@ import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { useCartStore } from '../store/cartStore';
 import { useAuthStore } from '../store/authStore';
 import { ShoppingCart, Menu, X, MapPin, Tag, User, LogOut, Store } from 'lucide-react';
+import logo_mango from "../assets/logo_mango_n.png";
 
 export const Navbar: React.FC = () => {
   const { setIsOpen, getTotalItems } = useCartStore();
@@ -36,9 +37,10 @@ export const Navbar: React.FC = () => {
           {/* Brand/Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <div className="flex flex-col">
-              <span className="text-2xl font-black tracking-tighter text-mango-primary leading-none">
+              {/* <span className="text-2xl font-black tracking-tighter text-mango-primary leading-none">
                 MANGO BAJITO
-              </span>
+              </span> */}              
+              <img src={logo_mango} alt="MANGO BAJITO" className="w-[100px]" />
               {/* <span className="text-[10px] font-bold text-mango-green tracking-widest uppercase mt-0.5">
                 Venezuela • MVP
               </span> */}
